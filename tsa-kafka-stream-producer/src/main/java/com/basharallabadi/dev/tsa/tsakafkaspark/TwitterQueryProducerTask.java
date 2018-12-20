@@ -13,10 +13,10 @@ class TwitterQueryProducerTask implements Runnable {
     TwitterQueryProducerTask(final EventsProducer producer) {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("oYmuDFcWXgYo6tJZ8cgzl6ghY")
-                .setOAuthConsumerSecret("dC1jar0cDD5FO99WuWZwu7mjcabAEkz6QSY4PBWiB3sdxvKSmy")
-                .setOAuthAccessToken("1061369819344314375-EMPNi1LHTJRZr1deEf4GLQC6IkLJtm")
-                .setOAuthAccessTokenSecret("A8qEH8gjga2dcpRLgW0FN8W0mdQlecvuzUB3BKNlDEcih");
+                .setOAuthConsumerKey("oYmu...")
+                .setOAuthConsumerSecret("dC1j..")
+                .setOAuthAccessToken("1061369..")
+                .setOAuthAccessTokenSecret("A8qEH8...");
 
         TwitterFactory tf = new TwitterFactory(cb.build());
         twitter = tf.getInstance();
